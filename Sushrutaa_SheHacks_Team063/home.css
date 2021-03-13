@@ -1,0 +1,105 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-image: url(https://www.teahub.io/photos/full/4-41820_2048x1365-amazing-4k-ultra-hd-doctors-pictures-backgrounds.jpg);
+    background-size: cover;
+   /* background-position: center;*/
+    font-family: sans-serif;
+}
+
+.Menubar{
+    background-color:#006699;
+    text-align: center;
+}
+
+.Menubar ul{
+    display: inline-flex;
+    list-style: none;
+    color: #fff;
+}
+
+.Menubar ul li{
+    width: 120px;
+    margin: 15px;
+    padding: 15px;
+}
+
+.Menubar ul li a{
+    text-decoration: none;
+    color: white ;
+}
+
+.active,.Menubar ul li:hover{
+    background: black;
+    border-radius: 3px;
+
+}
+
+.ss{
+    display: none;
+    text-align: left;
+
+}
+
+.Menubar ul li:hover .ss{
+    display: block;
+    position: absolute;
+    background:black ;
+    margin-top: 15px;
+    margin-left: -15px; 
+}
+
+.Menubar ul li:hover .ss ul{
+    display: block;
+    margin:10px; 
+}
+
+.Menubar ul li:hover .ss ul li{
+    width: 150px;
+    padding: 10px;
+    border-bottom: 1px dotted white;
+    background: transparent;
+    border-radius: 0;
+    text-align: left;
+}
+
+.Menubar ul li:hover .ss ul li:last-child{
+
+    border-bottom:0;
+}
+
+.Menubar ul li:hover .ss ul li a:hover{
+    color: #66ccff;
+}
+
+.wel{
+    width: 100%;
+    height: 100%;
+
+    font-family: "Sofia", sans-serif;
+    font-size: 30px;
+    font-style: italic;
+}
+
+.h1{
+    text-align:center; 
+}
+
+.ss{
+    padding: 10px;
+    margin: 100px;
+
+}
+
+
+.img{
+    width: 400px;
+    height: 230px;
+    position: absolute;
+    left: 860px;
+    top: 600px;
+}
